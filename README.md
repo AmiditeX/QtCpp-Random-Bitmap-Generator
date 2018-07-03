@@ -13,20 +13,25 @@ Different variations of the LCG can be selected :
 - linearCongruentialTimestamp : same except it only changes the seed once every second
 - linearCongruentialMillistamp : same except it changes the seed once every millisecond
 
+
 # Download the project
 
-This project was compiled with MinGW 32bits using Qt Creator. It is available under the MIT licence.
-A precompiled version is available at: https://sourceforge.net/projec/randombitmapgenerator
+This project was compiled with MinGW 32 bits using Qt Creator. It uses the Qt library and is available under the MIT licence.
+A precompiled version is available at: https://sourceforge.net/projects/randombitmapgenerator/
+
 
 # Screenshots
 
 Once generated, the bitmap will appear on the right of the GUI:
 
 Bitmap generated with apropriate settings, no visible patterns, good randomness.
+
 ![alt text](https://i.imgur.com/DIza5Mu.png)
 
 Bitmap generated with inapropriate settings, clearly a pattern is visible.
+
 ![alt text](https://i.imgur.com/SY5ng1O.png)
+
 
 # Building it yourself
 
