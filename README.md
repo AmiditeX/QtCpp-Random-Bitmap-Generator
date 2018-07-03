@@ -4,9 +4,8 @@ This project is a C++, Qt-based application to test different settings provided 
 a pseudo-random number generator wildly used. Using this application, you can visualize the output of this generator on a bitmap to assess the quality of the randomness by identifying patterns.
 
 You can input your own settings to the LCG, including the seed, modulo, multiplier, increment, and the number of bit to shift.
-You can select parameters from various languages and compilers provided here :
-
-https://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_common_use.
+You can select parameters from various languages and compilers provided here :  
+https://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_common_use.  
 It is also possible to choose among 4 colors to display on the bitmap.
 
 Different variations of the LCG can be selected :
