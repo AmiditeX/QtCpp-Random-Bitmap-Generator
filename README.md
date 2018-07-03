@@ -16,10 +16,10 @@ Different variations of the LCG can be selected :
 Once generated, the bitmap will appear on the right of the GUI:
 
 Bitmap generated with apropriate settings, no visible patterns, good randomness.
-![alt text](https://i.imgur.com/SY5ng1O.png)
+![alt text](https://i.imgur.com/DIza5Mu.png)
 
 Bitmap generated with inapropriate settings, clearly a pattern is visible.
-![alt text](https://i.imgur.com/DIza5Mu.png)
+![alt text](https://i.imgur.com/SY5ng1O.png)
 
 
 If you want to compile the project on your own, you'll need Qt with QMake, and a C++ compiler.
