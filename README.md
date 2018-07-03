@@ -5,6 +5,7 @@ a pseudo-random number generator wildly used. Using this application, you can vi
 
 You can input your own settings to the LCG, including the seed, modulo, multiplier, increment, and the number of bit to shift.
 You can select parameters from various languages and compilers provided here :
+
 https://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_common_use.
 It is also possible to choose among 4 colors to display on the bitmap.
 
