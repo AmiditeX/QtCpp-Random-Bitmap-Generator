@@ -13,6 +13,13 @@ Different variations of the LCG can be selected :
 - linearCongruentialTimestamp : same except it only changes the seed once every second
 - linearCongruentialMillistamp : same except it changes the seed once every millisecond
 
+# Download the project
+
+This project was compiled with MinGW 32bits using Qt Creator. It is available under the MIT licence.
+A precompiled version is available at: https://sourceforge.net/projec/randombitmapgenerator
+
+# Screenshots
+
 Once generated, the bitmap will appear on the right of the GUI:
 
 Bitmap generated with apropriate settings, no visible patterns, good randomness.
@@ -21,10 +28,8 @@ Bitmap generated with apropriate settings, no visible patterns, good randomness.
 Bitmap generated with inapropriate settings, clearly a pattern is visible.
 ![alt text](https://i.imgur.com/SY5ng1O.png)
 
+# Building it yourself
 
 If you want to compile the project on your own, you'll need Qt with QMake, and a C++ compiler.
 Your best option is to open the BitmapGenerator.pro using Qt Creator. It will auto-configure the project using QMake, asking you only to setup a compiler. You'll be able to edit the code and the GUI using the UI designer integrated in Qt Creator.
 To ship it, you'll need a few DLL from the Qt library. Your best choice here would be to use the windeployqt tool provided with Qt for it to copy automatically all the needed DLL without you having to find them one by one.
-
-This project was compiled with Mingw32. A precompiled version is available at :
-https://sourceforge.net/projects/randombitmapgenerator
