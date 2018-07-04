@@ -40,3 +40,7 @@ Bitmap generated with inapropriate settings, a pattern is clearly visible.
 If you want to compile the project on your own, you'll need Qt with QMake, and a C++ compiler.  
 Your best option is to open the BitmapGenerator.pro using Qt Creator. It will auto-configure the project using QMake, asking you only to setup a compiler. You'll be able to edit the code and the GUI using the UI designer integrated in Qt Creator.  
 To ship it, you'll need a few DLL from the Qt library. Your best choice here would be to use the windeployqt tool provided with Qt for it to copy automatically all the needed DLL without you having to find them one by one.  
+
+### Linked project
+
+A minesweeper using the LCG to prove pseudo-random generators are predictible : https://github.com/AmiditeX/RandomMinesweeper/
